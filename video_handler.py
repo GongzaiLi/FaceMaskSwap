@@ -20,6 +20,10 @@ class VideoHandler(object):
         self.src_img = None
 
     def expand_bbox(self, x, y, w, h, w_resize_ratio=1.1, h_resize_ratio=1.3):
+        """
+        Here is the
+        """
+        print("===========================")
         x = np.max([0, x - int(w * 0.05)])
         y = np.max([0, y - int(h * 0.05)])
         w = int((x + w) * w_resize_ratio - x)

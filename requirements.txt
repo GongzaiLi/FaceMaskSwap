@@ -1,3 +1,5 @@
+cmake >= 3.22.3
+
 # face_detection.py: 2
 # face_points_detection.py: 4
 # main.py: 4
