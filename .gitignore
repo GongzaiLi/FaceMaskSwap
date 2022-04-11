@@ -39,11 +39,10 @@ nosetests.xml
 .pydevproject
 
 # env
-
+.facemaskswap-env/
 
 # IDE
 .idea/
 
 # OS special files
 .DS_Store
-
